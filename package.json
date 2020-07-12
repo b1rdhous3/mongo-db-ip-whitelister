@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-ip-whitelister",
+  "version": "1.0.0",
+  "description": "A Network Whitelister for Mongodb.com. Uses current IP Address resolved from ipify.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b1rdhous3/mongo-db-ip-whitelister"
+  },
+  "keywords": [
+    "mongodb.com network whitelister",
+	  "mongodb.com ip whitelister",
+    "mongodb"
+  ],
+  "author": "Jan-Philipp Fischer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b1rdhous3/mongo-db-ip-whitelister/issues"
+  },
+  "homepage": "https://github.com/b1rdhous3/mongo-db-ip-whitelister#readme",
+  "dependencies": {
+    "ipify": "^4.0.0",
+    "request": "^2.88.2"
+  }
+}
