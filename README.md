@@ -9,7 +9,7 @@ $ npm install --save mongodb-ip-whitelister
 
 ### Usage
 ```
-const mongoDbIpWhitelister = require("./index.js");
+const mongoDbIpWhitelister = require("mongo-db-ip-whitelister");
 
 mongoDbIpWhitelister(
   "APIusername",
